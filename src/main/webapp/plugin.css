@@ -1,0 +1,99 @@
+// global style
+table { background:#FFF; border:1px solid #EEE; }
+table td { border-bottom:1px solid #EEE; border-right:1px solid #EEE; padding:.3em; margin:.3em; }
+table tr.odd td { background:#EEE; }
+table tr.even td { background:#FFF; }
+ul{ display:block; margin:.2em; padding:0; border:0; }
+
+
+.bill99scm-width80 { width : 80% }
+.bill99scm-width96 { width : 96% }
+.bill99scm-width100 { width : 100% }
+.bill99scm-hidden { display : none }
+.bill99scm-select { }
+.bill99scm-textfield {}
+.bill99scm-textarea {}
+.bill99scm-inputfile {}
+.bill99scm-fieldhelp { color:red; font-weight:bold; }
+.bill99scm-readonly { background:#FCFCFC; color:#666; }
+.bill99scm-required {color:red}
+.bill99scm-block {display:block}
+.bill99scm-inline {display:line}
+.bill99scm-deleted {text-decoration:line-through;}
+
+
+table.bill99scm-form { min-width : 400px; border:1px solid #AAA; border-left:0; border-right:0; }
+tr.bill99scm-form-header { background:#EEE;  margin:.3em;  }
+tr.bill99scm-form-header .bill99scm-form-itemH { padding : .5em; font-size:large; }
+tr.bill99scm-form-row {}
+tr.bill99scm-form-buttons { text-align:right;  }
+th.bill99scm-form-itemH {}
+td.bill99scm-form-itemN { text-align:right; width:10px; white-space:nowrap }
+td.bill99scm-form-itemC { }
+td.bill99scm-form-itemB {  font-weight:bold; font-size:large;  }
+
+ul.bill99scm-attachments { display:block; margin:0; padding:0; border:0; }
+li.bill99scm-attachment { white-space:nowrap; display:block; list-style:none; margin:0; padding:0; border:0; }
+li.bill99scm-attachment a { padding:.3em; padding-left:1em; text-align:right; }
+
+.bill99scm-table {border:1px solid #AAA;}
+.bill99scm-table th {padding : .5em; font-size:large; background:#EEE; margin:.3em;}
+
+.bill99scm-rsf-form {
+    border-bottom:0;
+}
+.bill99scm-rsf-form .row {
+
+}
+.bill99scm-rsf-form .row.search {
+
+}
+.bill99scm-rsf-form .row.display {
+
+}
+.bill99scm-rsf-form .row.filter {
+
+}
+.bill99scm-rsf-form .row.order {
+
+}
+.bill99scm-rsf-form .row .title,
+  .bill99scm-rsf-form .row .delete,
+  .bill99scm-rsf-form .row .field,
+  .bill99scm-rsf-form .row .operator {
+    width : 10px;
+    text-align : right;
+    white-space : nowrap;
+}
+
+.bill99scm-rsf-form .row .order,
+  .bill99scm-rsf-form .row .values {
+    width : 100%;
+}
+.bill99scm-rsf-form .row .values .value,
+  .bill99scm-rsf-form .row.display .value {
+    color           : #8A0909;
+    margin          : 5px;
+    padding         : 3px;
+    white-space     : nowrap;
+    margin-right    : 10px;
+    padding-right   : 0;
+    text-decoration : underline;
+}
+.bill99scm-rsf-form .row .values .delete,
+  .bill99scm-rsf-form .row.display .delete {
+    color           : #FF0000;
+    font-style      : italic;
+    font-weight     : bold;
+    padding-left    : 1px;
+    text-decoration : none;
+}
+
+ul.bill99scm-pager { display:block; margin:.2em; padding:0; border:0; }
+ul.bill99scm-pager li {white-space:nowrap; display:inline; list-style:none; margin:.2em; padding:.2em; border:0; font-weight:bold;}
+ul.bill99scm-pager li.omitted {}
+ul.bill99scm-pager li.selected { background:#FF8000; }
+ul.bill99scm-pager li.mouseover { background:#A2CEF2; cursor : pointer; }
+
+
+

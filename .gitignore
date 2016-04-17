@@ -1,0 +1,13 @@
+target
+bin
+*.iml
+*.iws
+*.ipr
+work
+.idea
+.classpath
+.project
+.settings
+*.jar
+*.sh
+
